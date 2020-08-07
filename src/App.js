@@ -51,6 +51,7 @@ function App() {
               </ul>
             </div>
         </div>
+    <Home />
     </div>
 
     <div>
