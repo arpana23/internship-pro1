@@ -1,0 +1,25 @@
+
+/* font-family: 'Raleway', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home .banner-home {
+    background: url(../components/images/bg_main.png) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+}
+
+.home .banner-home .static-container h1,
+.home .banner-home .static-container p {
+    color: #ffffff;
+}
+
+/* .home .banner-home .static-container .title {
+    color:#ffffff;
+    z-index: 10;
+} */

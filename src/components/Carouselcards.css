@@ -1,0 +1,142 @@
+/* font-family: 'Raleway', sans-serif; */
+/* color: rgb(102, 102, 102); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.carousel-title{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+/* .post-main {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 73vh;
+    margin: 0 auto;
+
+} */
+
+.post-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75vh;
+}
+
+/* .post-slider {
+     width: 100%;
+    height: 70vh;
+} */
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 0.8em;
+    height: 56vh;
+    border: 1px solid rgb(102, 102, 102);
+}
+
+.box-c {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 53vh;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.sub-c {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-top: 0.7em;
+}
+
+.name-c {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.name-c h4 {
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.name-c p {
+    font-size: 0.8em;
+    line-height: 2em;
+    /* font-weight: bold; */
+}
+
+.name-c p .mycolor {
+    color: blue;
+}
+
+.watch-like {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-top: 1.1em;
+}
+
+.btnc-a,.btnc-b,.btnc-c {
+    border: 1px solid #ccced1;
+    border-radius: 3px 3px 3px 3px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btnc-a {
+    width: 50%;
+    height: 5vh;
+}
+
+.btnc-b {
+    width: 50%;
+    height: 5vh;
+    /* padding: 0.3px; */
+    margin-right: 1.7em;
+}
+
+.btnc-c  {
+    width: 40%;
+    height: 5vh;
+}
+
+#bt-card {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+}
+
+.common-bt {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: 11px;
+}
+
+@media screen and (min-width: 0px)and (max-width: 720px) {
+    .post-wrapper {
+        display: none;
+        
+    }
+    
+  
+
+}

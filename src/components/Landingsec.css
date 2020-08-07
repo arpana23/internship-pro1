@@ -1,0 +1,139 @@
+/* font-family: 'Raleway', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-sec-container {
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    height: 450px;
+    margin: 0 auto;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.landing-sec-container .landing-sec-item {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 430px;
+}
+
+.landing-sec-container .landing-sec-item .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #1d99ff;
+    /* background-color: #011f3d; */
+    background-color: #031b33;
+}
+
+.landing-sec-container .landing-sec-item .box1:hover {
+    background-color: #1d99ff;
+    transform: scale(1.1);
+    overflow: auto;
+    transition: all 500ms ease;
+}
+
+.landing-sec-container .landing-sec-item .box1 .pro-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    width: 100%;
+    height: 12vh;
+}
+
+.landing-sec-container .landing-sec-item .box1 .pro-name h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.landing-sec-container .landing-sec-item .box1 .pro-image {
+    width: 100%;
+    height: 260px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-sec-container .landing-sec-item .box1 .pro-image .myimage {
+    width: 100%;
+    height: 260px;
+    font-size: 30px;
+}
+
+#mylink {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+@media screen and (min-width: 0px)and (max-width: 720px) {
+    .landing-sec-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        /* padding: 2em; */
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+    }
+    
+    .landing-sec-container .landing-sec-item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .landing-sec-container .landing-sec-item .box1 {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        width: 100%;
+        height: 500px;
+        border-bottom: 4px solid #1d99ff;
+        background-color: #031b33;
+        margin-top: 2em;
+    }
+    
+    .landing-sec-container .landing-sec-item .box1 .pro-name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        width: 100%;
+        height: 14vh;
+        margin-top: 2em;
+    }
+
+    .landing-sec-container .landing-sec-item .box1 .pro-image {
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .landing-sec-container .landing-sec-item .box1 .pro-image .myimage {
+        width: 100%;
+        height: 400px;
+    }
+    
+}
